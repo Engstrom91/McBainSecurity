@@ -24,7 +24,6 @@ public class UserController {
         return new UserRegistration();
     }
 
-    //Refactor this function? Explained at 52:39
     @GetMapping
     public String showRegistrationForm() {
         return "registration";
